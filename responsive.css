@@ -1,0 +1,357 @@
+@media screen and (min-width: 1024px) and (max-width:1200px) {
+    .container {
+        width: 100%;
+        padding: 0px 30px;
+    }
+
+    .experience {
+        display: flex;
+        gap: 30px;
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .portfolio-image {
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width:1023px) {
+    .container {
+        width: 100%;
+        padding: 0px 30px;
+    }
+
+    .header-button {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .overlay {
+        padding-bottom: 120px;
+    }
+
+    .about-para .para {
+        width: 100%;
+        font-size: 22px;
+    }
+
+    .experience {
+        display: flex;
+        gap: 30px;
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .portfolio-image {
+        justify-content: center;
+    }
+
+    .header-para h4 {
+        font-size: 43px;
+        line-height: 1.5;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width:768px) {
+    .container {
+        width: 100%;
+        padding: 0px 30px;
+    }
+
+    .header-button {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .header-mid {
+        margin-top: 150px;
+        flex-wrap: wrap;
+    }
+
+    .header-button button {
+        padding: 20px 20px;
+    }
+
+    .socail-link {
+        display: flex;
+        gap: 30px;
+        margin-top: 60px;
+    }
+
+    .progress-pro hr {
+        display: none;
+    }
+
+    .progress-pro {
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+        column-gap: 30px;
+        row-gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .portfolio img {
+        width: 100%;
+        height: 350px;
+        object-fit: cover;
+    }
+
+    .contact-message {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .info {
+        background-color: black;
+        padding: 55px 50px;
+        width: 550px;
+    }
+
+    .footer-menue p {
+        width: 100%;
+    }
+
+    .footers {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .menues ul {
+        padding-left: 0px;
+        display: flex;
+        gap: 21px;
+    }
+
+    .about-para hr,
+    .service-para hr,
+    .portfolio-para hr,
+    .contact-para hr {
+        width: 100%;
+    }
+
+    .overlay {
+        padding-bottom: 80px;
+    }
+
+    .about-para h1,
+    .service-para h1,
+    .portfolio-para h1,
+    .contact-para h1 {
+        font-size: 45px;
+    }
+
+    .about-para .para {
+        width: 100%;
+        font-size: 22px;
+    }
+
+    .experience {
+        display: flex;
+        gap: 30px;
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .portfolio-image {
+        justify-content: center;
+    }
+
+    .header-para p {
+        text-align: center;
+    }
+
+    .about {
+        padding: 100px 0px;
+    }
+
+    .header-para h4 {
+        font-size: 43px;
+        line-height: 1.5;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width:480px) {
+    .container {
+        width: 100%;
+        padding: 0px 30px;
+    }
+
+    .header-mid {
+        margin-top: 80px;
+        flex-wrap: wrap;
+    }
+
+    .header-button {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .header-button button {
+        padding: 20px 20px;
+    }
+
+    .socail-link {
+        display: flex;
+        gap: 30px;
+        margin-top: 60px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-inner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .btn-menues {
+        position: unset;
+        z-index: unset;
+    }
+
+    .btn-menue {
+        position: unset;
+    }
+
+    .progress-pro hr {
+        display: none;
+    }
+
+    .progress-pro {
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+        column-gap: 30px;
+        row-gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .portfolio img {
+        width: 100%;
+        height: 350px;
+        object-fit: cover;
+    }
+
+    .contact-message {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .info {
+        background-color: black;
+        padding: 55px 31px;
+        width: 550px;
+    }
+
+    .footer-menue p {
+        width: 100%;
+    }
+
+    .footers {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .menues ul {
+        padding-left: 0px;
+        display: flex;
+        gap: 21px;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .about-para hr,
+    .service-para hr,
+    .portfolio-para hr,
+    .contact-para hr {
+        width: 100%;
+    }
+
+    .overlay {
+        padding-bottom: 80px;
+    }
+
+    .about-para h1,
+    .service-para h1,
+    .portfolio-para h1,
+    .contact-para h1 {
+        font-size: 40px;
+    }
+
+    .about-para .para {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .about-para p,
+    .service-para p,
+    .portfolio-para p,
+    .contact-para p {
+        font-size: 18px;
+    }
+
+    .experience {
+        display: flex;
+        gap: 30px;
+        width: 100%;
+        margin-top: 50px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .experience h2 {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .experience p {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .header-button {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .portfolio-image {
+        justify-content: center;
+    }
+
+    .header-para p {
+        text-align: center;
+    }
+
+    .header-para p {
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 17px;
+    }
+
+    .about {
+        padding: 100px 0px;
+    }
+
+    .header-para h4 {
+        font-size: 30px;
+        line-height: 1.5;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+}
