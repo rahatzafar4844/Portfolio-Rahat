@@ -10,7 +10,7 @@ html {
 }
 
 .header {
-    background-image: url('./image/bg.webp.jpg');
+    background-image: url('bg.webp.jpg');
     background-attachment: fixed;
 }
 
@@ -382,7 +382,7 @@ button.btn.btn-menue {
 }
 
 .contact-us {
-    background-image: url('./image/5.jpg');
+    background-image: url('5.jpg');
     background-attachment: fixed;
     background-size: cover;
 }
